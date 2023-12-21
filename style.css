@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "shabnam";
+    src: url(/font-ttf) format(truetype);
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fafafa;
+    font-family: shabnam;
+}
+.hed{
+    width: 70%;
+    display: flex;
+    margin: 25px auto;
+    /* background-color: aqua; */
+    justify-content: space-between; 
+}
+.hed svg{
+    width: 20px;
+}
+.namaesh a{
+    text-decoration: none;
+}
+/* .............. */
+.parntbox{
+    
+    width: 75%;
+    margin: 15px auto;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.box{
+   background-color: white ;
+   width: 240px;
+   padding: 20px;
+   border: 1px solid orangered;
+   border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0,0.08);
+    cursor: pointer;
+}
+.box .aksha{
+    width: 100%;
+    height: 150px;
+    /* opacity: 80%; */
+}
+
+.box h4{
+    font-weight: normal;
+font-size: 15px;
+margin-top: 10px;
+height: 76px;
+line-height: 1.6;
+}
+.box [href]:hover{
+    color: blue ;
+    text-decoration: underline;
+}
+.box [href]{
+    text-decoration: none;
+    color: #3f3c3c;
+}
+/* lowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww */
+.bakhsflow{
+    margin-top: 20px;
+}
+.drsad{
+    background-color: #e3f2fd;
+    color: blue;
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+.delet{
+    color: #4b4848;
+    font-size: 14px;
+    position: relative;
+    /* text-decoration: line-through; */
+    opacity: 50%;
+}
+.delet::before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    background-color: rgb(65, 62, 62);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0pc;
+}
+.prise-star{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    margin-top: 15px;
+    align-items: center;
+   padding-right: 5px;
+    border-radius: 5px;
+    /* opacity: 50%; */
+}
+.vahed{
+color:#615b5b;
+font-size: 14px;
+}
+.star{
+    width: 15px;
+}
+.nazaz{
+    font-size: 14px;
+    color:#615b5b;
+}
+[href $="1"]{
+    background-color: red;
+}
