@@ -117,3 +117,10 @@ font-size: 14px;
 [href $="1"]{
     background-color: red;
 }
+@media screen and (max-width:950px){
+    .box{
+        width: 350px;
+        height: 400px;
+    }
+
+}
